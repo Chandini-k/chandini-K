@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Bankk\obj\Debug\Bankk.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Bankk\bin\Debug\Bankk.exe.config
+C:\Users\Dell\source\repos\Bankk\bin\Debug\Bankk.exe
+C:\Users\Dell\source\repos\Bankk\bin\Debug\Bankk.pdb
+C:\Users\Dell\source\repos\Bankk\obj\Debug\Bankk.exe
+C:\Users\Dell\source\repos\Bankk\obj\Debug\Bankk.pdb
