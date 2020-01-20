@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\bin\Debug\HandsonConditionalStmnts.exe.config
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\bin\Debug\HandsonConditionalStmnts.exe
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\bin\Debug\HandsonConditionalStmnts.pdb
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\obj\Debug\HandsonConditionalStmnts.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\obj\Debug\HandsonConditionalStmnts.exe
+C:\Users\Dell\source\repos\HandsonConditionalStmnts\obj\Debug\HandsonConditionalStmnts.pdb
