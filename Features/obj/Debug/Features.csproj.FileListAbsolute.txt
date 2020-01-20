@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Features\bin\Debug\Features.exe.config
+C:\Users\Dell\source\repos\Features\bin\Debug\Features.exe
+C:\Users\Dell\source\repos\Features\bin\Debug\Features.pdb
+C:\Users\Dell\source\repos\Features\obj\Debug\Features.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Features\obj\Debug\Features.exe
+C:\Users\Dell\source\repos\Features\obj\Debug\Features.pdb
