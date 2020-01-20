@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\HandsonConversions\obj\Debug\HandsonConversions.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\HandsonConversions\bin\Debug\HandsonConversions.exe.config
+C:\chandini\c#\Handson\HandsonConversions\bin\Debug\HandsonConversions.exe
+C:\chandini\c#\Handson\HandsonConversions\bin\Debug\HandsonConversions.pdb
+C:\chandini\c#\Handson\HandsonConversions\obj\Debug\HandsonConversions.exe
+C:\chandini\c#\Handson\HandsonConversions\obj\Debug\HandsonConversions.pdb
