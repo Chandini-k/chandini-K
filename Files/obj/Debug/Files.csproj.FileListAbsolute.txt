@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\Files\bin\Debug\Files.exe.config
+C:\chandini\c#\Handson\Files\bin\Debug\Files.exe
+C:\chandini\c#\Handson\Files\bin\Debug\Files.pdb
+C:\chandini\c#\Handson\Files\obj\Debug\Files.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\Files\obj\Debug\Files.exe
+C:\chandini\c#\Handson\Files\obj\Debug\Files.pdb
