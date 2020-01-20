@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\Delegates\bin\Debug\Delegates.exe.config
+C:\chandini\c#\Handson\Delegates\bin\Debug\Delegates.exe
+C:\chandini\c#\Handson\Delegates\bin\Debug\Delegates.pdb
+C:\chandini\c#\Handson\Delegates\obj\Debug\Delegates.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\Delegates\obj\Debug\Delegates.exe
+C:\chandini\c#\Handson\Delegates\obj\Debug\Delegates.pdb
