@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\ObjectOOP\bin\Debug\ObjectOOP.exe.config
+C:\Users\Dell\source\repos\ObjectOOP\bin\Debug\ObjectOOP.exe
+C:\Users\Dell\source\repos\ObjectOOP\bin\Debug\ObjectOOP.pdb
+C:\Users\Dell\source\repos\ObjectOOP\obj\Debug\ObjectOOP.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\ObjectOOP\obj\Debug\ObjectOOP.exe
+C:\Users\Dell\source\repos\ObjectOOP\obj\Debug\ObjectOOP.pdb
