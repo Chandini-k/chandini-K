@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\String\bin\Debug\String.exe.config
+C:\Users\Dell\source\repos\String\bin\Debug\String.exe
+C:\Users\Dell\source\repos\String\bin\Debug\String.pdb
+C:\Users\Dell\source\repos\String\obj\Debug\String.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\String\obj\Debug\String.exe
+C:\Users\Dell\source\repos\String\obj\Debug\String.pdb
