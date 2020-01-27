@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Polymorphism\bin\Debug\Polymorphism.exe.config
+C:\Users\Dell\source\repos\Polymorphism\bin\Debug\Polymorphism.exe
+C:\Users\Dell\source\repos\Polymorphism\bin\Debug\Polymorphism.pdb
+C:\Users\Dell\source\repos\Polymorphism\obj\Debug\Polymorphism.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Polymorphism\obj\Debug\Polymorphism.exe
+C:\Users\Dell\source\repos\Polymorphism\obj\Debug\Polymorphism.pdb
