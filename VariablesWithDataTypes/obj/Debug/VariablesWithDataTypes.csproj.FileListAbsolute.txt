@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\VariablesWithDataTypes\obj\Debug\VariablesWithDataTypes.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\VariablesWithDataTypes\bin\Debug\VariablesWithDataTypes.exe.config
+C:\chandini\c#\Handson\VariablesWithDataTypes\bin\Debug\VariablesWithDataTypes.exe
+C:\chandini\c#\Handson\VariablesWithDataTypes\bin\Debug\VariablesWithDataTypes.pdb
+C:\chandini\c#\Handson\VariablesWithDataTypes\obj\Debug\VariablesWithDataTypes.exe
+C:\chandini\c#\Handson\VariablesWithDataTypes\obj\Debug\VariablesWithDataTypes.pdb
