@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\bin\Debug\HandsonIterativeStmnts.exe.config
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\bin\Debug\HandsonIterativeStmnts.exe
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\bin\Debug\HandsonIterativeStmnts.pdb
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\obj\Debug\HandsonIterativeStmnts.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\obj\Debug\HandsonIterativeStmnts.exe
+C:\Users\Dell\source\repos\HandsonIterativeStmnts\obj\Debug\HandsonIterativeStmnts.pdb
