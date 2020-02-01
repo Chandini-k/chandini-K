@@ -2,165 +2,57 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using CaseStudy.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CaseStudy.Controllers
 {
-    public class SellerController : Controller
+    public class SellerController:Controller
     {
-        public readonly SellerContext _context;
-        public SellerController(SellerContext context)
+        //SellerRepository sellerRepository = new SellerRepository();
+        private readonly ISellerRepository sellerRepository;
+        public SellerController(ISellerRepository selRepository)
         {
-            this._context = context;
+            sellerRepository = selRepository;
         }
-
-        [HttpGet]
-        public ActionResult SellerRegister()
+        public IActionResult Search(int? id)
         {
-            return View();
+            int ID = (int)((id == null) ? 1 : id);
+            Seller seller = sellerRepository.GetSeller(ID);
+            if (seller != null)
+                return Content(seller.id + "\n" + seller.name + "\n" + seller.password + "\n" + seller.emailid + "\n" + seller.mobileno + "\n" + seller.companyname + "\n" + seller.briefabtcmpy + "\n" + seller.address + "\n" + seller.website + "\n" + seller.GST);
+            return Content("Employee does not exist");
+            //ViewData["Id"] = emp.Id;
+            //ViewData["name"] = emp.Name;
+            //ViewData["Email"] = emp.Email;
+            //ViewData["Dept"] = emp.Dept;
+            //ViewBag.Id = emp.Id;
+            //ViewBag.name = emp.Name;
+            //ViewBag.Email = emp.Email;
+            //ViewBag.Dept = emp.Dept;
+            //ViewData["employee"] = emp;
+            //ViewBag.employee = emp;
+            //return View(emp);
         }
-        [HttpPost]
-        public ActionResult SellerRegister(Seller b)
+        public IActionResult Index()
         {
-            try
-            {
-
-                _context.Add(b);
-                _context.SaveChanges();
-                ViewBag.message = b.UserName + "has got successfully registered";
-                return RedirectToAction("Login");
-            }
-            catch (Exception e)
-            {
-                ViewBag.message = b.UserName + "Registration failed ";
-                return View();
-            }
-
+            List<Seller> sellerlist = sellerRepository.DisplayDetails();
+            return View(sellerlist);
         }
-        [HttpGet]
-        public ActionResult SellerLogin()
-        {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult SellerLogin(Buyer b)
-        {
-            var logUser = _context.sellers.Where(e => e.UserName == b.UserName && e.Password == b.Password).ToList();
-            if (logUser.Count == 0)
-            {
-                ViewBag.message = "Not valid User";
-                return View();
-            }
-            else
-            {//to store session values
-                HttpContext.Session.SetString("UName", b.UserName);
-
-                ////HttpContext.Session.SetString("lastLogin", DateTime.Now.ToString());
-                return RedirectToAction("CreateDashBoard");
-            }
-
-        }
-
-        public ActionResult CreateSellerDashBoard()
-        {
-            if (HttpContext.Session.GetString("UName") != null)
-            {
-                ViewBag.uname = HttpContext.Session.GetString("UName").ToString();
-                //ViewBag.lldt = HttpContext.Session.GetString("lastLogin").ToString();
-                if (Request.Cookies["lastLogin"] != null)
-                {
-                    ViewBag.lldt = Request.Cookies["lastLogin"].ToString();
-                }
-            }
-            return View();
-        }
-        public ActionResult SellerLogOut()
-        {
-            Response.Cookies.Append("lastLogin", DateTime.Now.ToString());
-            HttpContext.Session.Clear();
-            return RedirectToAction("Login");
-        }
-        // GET: CookieSession
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        // GET: CookieSession/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: CookieSession/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: CookieSession/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add insert logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: CookieSession/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: CookieSession/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add update logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: CookieSession/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: CookieSession/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //public ViewResult AboutEmployee()
+        //{
+        //    Employee1 emp = employee1Repository.GetEmployee1(2);
+        //    //ViewBag.projectName = "BookHive";
+        //    EmployeeProjectViewModel ep = new EmployeeProjectViewModel();
+        //    ep.employee = emp;
+        //    ep.projectName = "BookHive";
+        //    return View(ep);
+        //}
+        //public IActionResult GetAllEmployees()
+        //{
+        //    List<Employee1> elist = (employee1Repository.DisplayDetails()).Where(e => e.Dept == "Insurance").ToList();
+        //    //return View("~/Views/Employee1/Index.cshtml",elist);
+        //    return View("Index", elist);//relarive path to refer a view
+        //}
     }
 }
