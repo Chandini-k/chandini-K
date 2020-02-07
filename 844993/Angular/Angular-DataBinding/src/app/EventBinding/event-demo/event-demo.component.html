@@ -1,0 +1,14 @@
+<h1>Hello {{name}}</h1>
+<button (click)='setName()'>Click Me</button>
+<div>
+    <input type="text" #t1>
+    <button (click)='Greet(t1.value)'>Greet</button>
+</div>
+<div>
+    <select (change)="Greet(s1.value)" #s1>
+        <option value="Rohan">Rohan</option>
+        <option value="Jhon">Jhon</option>
+        <option value="Raj">Raj</option>
+        <option value="Ram">Ram</option>
+    </select>
+</div>

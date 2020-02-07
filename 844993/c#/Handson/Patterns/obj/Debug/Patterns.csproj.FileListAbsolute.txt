@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\Patterns\bin\Debug\Patterns.exe.config
+C:\chandini\c#\Handson\Patterns\bin\Debug\Patterns.exe
+C:\chandini\c#\Handson\Patterns\bin\Debug\Patterns.pdb
+C:\chandini\c#\Handson\Patterns\obj\Debug\Patterns.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\Patterns\obj\Debug\Patterns.exe
+C:\chandini\c#\Handson\Patterns\obj\Debug\Patterns.pdb

@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\JaggedArray\bin\Debug\JaggedArray.exe.config
+C:\Users\Dell\source\repos\JaggedArray\bin\Debug\JaggedArray.exe
+C:\Users\Dell\source\repos\JaggedArray\bin\Debug\JaggedArray.pdb
+C:\Users\Dell\source\repos\JaggedArray\obj\Debug\JaggedArray.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\JaggedArray\obj\Debug\JaggedArray.exe
+C:\Users\Dell\source\repos\JaggedArray\obj\Debug\JaggedArray.pdb
