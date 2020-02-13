@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\Dell\source\repos\Assignment\bin\Debug\Assignment.exe
+C:\Users\Dell\source\repos\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Dell\source\repos\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Assignment\obj\Debug\Assignment.exe
+C:\Users\Dell\source\repos\Assignment\obj\Debug\Assignment.pdb

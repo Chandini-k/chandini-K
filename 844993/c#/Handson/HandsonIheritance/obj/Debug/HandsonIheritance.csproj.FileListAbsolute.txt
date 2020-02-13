@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\HandsonIheritance\bin\Debug\HandsonIheritance.exe.config
+C:\Users\Dell\source\repos\HandsonIheritance\bin\Debug\HandsonIheritance.exe
+C:\Users\Dell\source\repos\HandsonIheritance\bin\Debug\HandsonIheritance.pdb
+C:\Users\Dell\source\repos\HandsonIheritance\obj\Debug\HandsonIheritance.exe
+C:\Users\Dell\source\repos\HandsonIheritance\obj\Debug\HandsonIheritance.pdb
+C:\Users\Dell\source\repos\HandsonIheritance\obj\Debug\HandsonIheritance.csprojAssemblyReference.cache

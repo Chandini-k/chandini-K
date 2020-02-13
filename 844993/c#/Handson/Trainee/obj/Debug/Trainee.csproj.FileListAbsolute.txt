@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\Trainee\bin\Debug\Trainee.exe.config
+C:\chandini\c#\Handson\Trainee\bin\Debug\Trainee.exe
+C:\chandini\c#\Handson\Trainee\bin\Debug\Trainee.pdb
+C:\chandini\c#\Handson\Trainee\obj\Debug\Trainee.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\Trainee\obj\Debug\Trainee.exe
+C:\chandini\c#\Handson\Trainee\obj\Debug\Trainee.pdb

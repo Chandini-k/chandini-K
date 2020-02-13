@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width" />
+    <script language="javascript">
+        function disp()
+        {
+            //document.write("Hello all...");
+            alert("You checked");
+        }
+        function add(a,b)
+            {
+                return(a + b);
+        }
+         disp();
+    </script>
+</head>
+<body>
+<h1 id="t1">Welocome to Javascript</h1>
+    <br />
+    <br />
+    <input type="button" value="ClickHere" onclick="disp()"/>
+    <h2 id="t2"></h2>
+    <noscript>No script is allowed</noscript>
+    <br />
+    <script>
+       
+        document.getElementById("t2").innerHTML = add(10, 20);
+
+    </script>
+</body>
+</html>

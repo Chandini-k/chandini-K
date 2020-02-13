@@ -1,0 +1,13 @@
+﻿@model MVCUsingModelValidations.Models.User
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>WELCOME @Html.DisplayFor(m=>m.Name)</h1>
+<pre>
+PASSWORD:@Html.DisplayFor(m=>m.Pwd)
+</pre>
+@Html.ActionLink("Logout","Login","User")
+
+
