@@ -1,0 +1,6 @@
+C:\chandini\844993\netcore\Assign\bin\Debug\Assign.exe.config
+C:\chandini\844993\netcore\Assign\bin\Debug\Assign.exe
+C:\chandini\844993\netcore\Assign\bin\Debug\Assign.pdb
+C:\chandini\844993\netcore\Assign\obj\Debug\Assign.csprojAssemblyReference.cache
+C:\chandini\844993\netcore\Assign\obj\Debug\Assign.exe
+C:\chandini\844993\netcore\Assign\obj\Debug\Assign.pdb

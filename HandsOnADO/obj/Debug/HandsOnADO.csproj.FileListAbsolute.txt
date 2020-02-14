@@ -1,0 +1,6 @@
+C:\chandini\844993\netcore\HandsOnADO\bin\Debug\HandsOnADO.exe.config
+C:\chandini\844993\netcore\HandsOnADO\bin\Debug\HandsOnADO.exe
+C:\chandini\844993\netcore\HandsOnADO\bin\Debug\HandsOnADO.pdb
+C:\chandini\844993\netcore\HandsOnADO\obj\Debug\HandsOnADO.csprojAssemblyReference.cache
+C:\chandini\844993\netcore\HandsOnADO\obj\Debug\HandsOnADO.exe
+C:\chandini\844993\netcore\HandsOnADO\obj\Debug\HandsOnADO.pdb

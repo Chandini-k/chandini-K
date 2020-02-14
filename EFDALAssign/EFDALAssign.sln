@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDALAssign", "EFDALAssign\EFDALAssign.csproj", "{4432D1CD-7EEA-48D3-B57A-3C2794D28EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assign", "Assign\Assign.csproj", "{8E159C2A-03D3-4C7C-ADBA-A13CCA2F497B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4432D1CD-7EEA-48D3-B57A-3C2794D28EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4432D1CD-7EEA-48D3-B57A-3C2794D28EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4432D1CD-7EEA-48D3-B57A-3C2794D28EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4432D1CD-7EEA-48D3-B57A-3C2794D28EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E159C2A-03D3-4C7C-ADBA-A13CCA2F497B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E159C2A-03D3-4C7C-ADBA-A13CCA2F497B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E159C2A-03D3-4C7C-ADBA-A13CCA2F497B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E159C2A-03D3-4C7C-ADBA-A13CCA2F497B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17983B96-37F1-4485-93E8-7EC108ACFD51}
+	EndGlobalSection
+EndGlobal
