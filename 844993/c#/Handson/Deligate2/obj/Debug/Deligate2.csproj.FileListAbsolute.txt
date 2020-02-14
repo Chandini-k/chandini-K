@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\Deligate2\bin\Debug\Deligate2.exe.config
+C:\chandini\c#\Handson\Deligate2\bin\Debug\Deligate2.exe
+C:\chandini\c#\Handson\Deligate2\bin\Debug\Deligate2.pdb
+C:\chandini\c#\Handson\Deligate2\obj\Debug\Deligate2.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\Deligate2\obj\Debug\Deligate2.exe
+C:\chandini\c#\Handson\Deligate2\obj\Debug\Deligate2.pdb

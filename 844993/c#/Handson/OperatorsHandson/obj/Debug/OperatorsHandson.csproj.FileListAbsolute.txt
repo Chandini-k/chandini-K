@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\OperatorsHandson\bin\Debug\OperatorsHandson.exe.config
+C:\chandini\c#\Handson\OperatorsHandson\bin\Debug\OperatorsHandson.exe
+C:\chandini\c#\Handson\OperatorsHandson\bin\Debug\OperatorsHandson.pdb
+C:\chandini\c#\Handson\OperatorsHandson\obj\Debug\OperatorsHandson.exe
+C:\chandini\c#\Handson\OperatorsHandson\obj\Debug\OperatorsHandson.pdb
+C:\chandini\c#\Handson\OperatorsHandson\obj\Debug\OperatorsHandson.csprojAssemblyReference.cache

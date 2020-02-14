@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\2DArray\bin\Debug\2DArray.exe.config
+C:\Users\Dell\source\repos\2DArray\bin\Debug\2DArray.exe
+C:\Users\Dell\source\repos\2DArray\bin\Debug\2DArray.pdb
+C:\Users\Dell\source\repos\2DArray\obj\Debug\2DArray.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\2DArray\obj\Debug\2DArray.exe
+C:\Users\Dell\source\repos\2DArray\obj\Debug\2DArray.pdb

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        //Form validation code will be here
+        function validate() {
+            if (document.myForm.Name.value != "") {
+                var pat = /^[0-9-_\.]{1,20}$/;
+                if (pat.test(document.myForm.Name.value) == true) {
+                    alert("Please provide your Name");
+                    document.myForm.Name.focus();
+                    return false;
+                }
+            }
+            if (document.myForm.Gender.value == "") {
+                alert("Please provide your Email");
+                document.myForm.Gender.focus();
+                return false;
+            }
+            if (document.myForm.HomeTown.value == "-1") {
+                alert("Please provide your Country");
+                document.myForm.HomeTown.focus();
+                return false;
+            }
+            return (true);
+        }
+    </script>
+</head>
+<body>
+    <h1> Personal Details</h1>
+    <form name="myForm" onsubmit="return (validate());">
+        <table cellpadding="1" cellspacing="0" border="0">
+            <tr>
+                <td align="left">Name</td>
+                <td><input type="text" name="Name" /></td>
+            </tr>
+            <tr>
+                <td align="left">Gender</td>
+
+                <td>
+                    Male<input type="radio" name="Male" />
+
+                    Female<input type="radio" name="FeMale" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td align="left">Home Town</td>
+                <td>
+                    <select name="HomeTown">
+                        <option value="-1" selected>[choose yours]</option>
+                        <option value="1" selected>NewDelhi</option>
+                        <option value="2" selected>AndhraPradesh</option>
+                        <option value="3" selected>TamilNadu</option>
+                        <option value="4" selected>Maharashtra</option>
+                        <option value="5" selected>Kerala</option>
+                        <option value="6" selected>Odissa</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Address</td>
+                <td>
+                    <textarea type="text" name="address" rows="10" cols=" 20"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Skills</td>
+                <td><input type="checkbox" name="Java" />Java
+                <input type="checkbox" name="HTML" />HTML
+                <input type="checkbox" name="Oracle" />Oracle</td>
+            </tr>
+            <tr>
+                <td align="left">Password</td>
+                <td><input type="text" name="password" /></td>
+            </tr>
+            <tr>
+                <td align="left"></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

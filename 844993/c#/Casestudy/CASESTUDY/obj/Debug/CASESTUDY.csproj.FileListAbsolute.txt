@@ -1,0 +1,6 @@
+C:\chandini\c#\Casestudy\CASESTUDY\obj\Debug\CASESTUDY.csprojAssemblyReference.cache
+C:\chandini\c#\Casestudy\CASESTUDY\bin\Debug\CASESTUDY.exe.config
+C:\chandini\c#\Casestudy\CASESTUDY\bin\Debug\CASESTUDY.exe
+C:\chandini\c#\Casestudy\CASESTUDY\bin\Debug\CASESTUDY.pdb
+C:\chandini\c#\Casestudy\CASESTUDY\obj\Debug\CASESTUDY.exe
+C:\chandini\c#\Casestudy\CASESTUDY\obj\Debug\CASESTUDY.pdb

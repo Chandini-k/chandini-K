@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Collections\bin\Debug\Collections.exe.config
+C:\Users\Dell\source\repos\Collections\bin\Debug\Collections.exe
+C:\Users\Dell\source\repos\Collections\bin\Debug\Collections.pdb
+C:\Users\Dell\source\repos\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Collections\obj\Debug\Collections.exe
+C:\Users\Dell\source\repos\Collections\obj\Debug\Collections.pdb

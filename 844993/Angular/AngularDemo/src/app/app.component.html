@@ -1,0 +1,13 @@
+<h1>Welcome Cts</h1>
+<h2>ANGULAR DEMO</h2>
+<h3>{{'Title is'+title}}</h3>
+<h3>{{10+num}}</h3>
+<h3>{{title?title:'No title'}}</h3>
+<img src="{{imagepath}}"><!--pure interpolation-->
+<img [src]="imagepath"><!--Property binding-->
+<h3>{{getname()}}</h3>
+<button class="italicclass" [disabled]='isdisabled'>Click</button><!--non string data type use property binding-->
+<!--to apply any style in app.component use direct class name-->
+<button [class]="mystyle" bind-disabled='isdisabled'>Bind</button><!--Canonical form property binding-->
+<my-employee></my-employee>
+<button [class.italicclass]=applyStyle>Check</button>

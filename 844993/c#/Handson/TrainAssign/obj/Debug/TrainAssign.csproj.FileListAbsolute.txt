@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\TrainAssign\obj\Debug\TrainAssign.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\TrainAssign\bin\Debug\TrainAssign.exe.config
+C:\chandini\c#\Handson\TrainAssign\bin\Debug\TrainAssign.exe
+C:\chandini\c#\Handson\TrainAssign\bin\Debug\TrainAssign.pdb
+C:\chandini\c#\Handson\TrainAssign\obj\Debug\TrainAssign.exe
+C:\chandini\c#\Handson\TrainAssign\obj\Debug\TrainAssign.pdb

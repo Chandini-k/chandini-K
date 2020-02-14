@@ -1,0 +1,29 @@
+<p [ngStyle]="getStyle()">employee works!</p>
+<button (click)="onClick()">click</button>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">
+               Employee Details
+            </th>
+        </tr>
+    </thead>
+   <tbody>
+    <tr>
+        <td>FirstName</td>
+        <td>{{firstname}}</td>
+    </tr>
+    <tr>
+        <td>LastName</td>
+        <td>{{lastname}}</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>{{Email}}</td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td>{{Age}}</td>
+    </tr>
+</tbody>
+</table>

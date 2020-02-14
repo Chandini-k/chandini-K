@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\InstanceAssign\bin\Debug\InstanceAssign.exe.config
+C:\chandini\c#\Handson\InstanceAssign\bin\Debug\InstanceAssign.exe
+C:\chandini\c#\Handson\InstanceAssign\bin\Debug\InstanceAssign.pdb
+C:\chandini\c#\Handson\InstanceAssign\obj\Debug\InstanceAssign.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\InstanceAssign\obj\Debug\InstanceAssign.exe
+C:\chandini\c#\Handson\InstanceAssign\obj\Debug\InstanceAssign.pdb
