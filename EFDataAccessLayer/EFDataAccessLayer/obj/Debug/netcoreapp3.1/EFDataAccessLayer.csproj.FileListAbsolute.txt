@@ -1,0 +1,10 @@
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.deps.json
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.dll
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.csprojAssemblyReference.cache
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.AssemblyInfoInputs.cache
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.AssemblyInfo.cs
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.runtimeconfig.json
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.runtimeconfig.dev.json
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.pdb
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.dll
+C:\chandini\844993\netcore\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.pdb

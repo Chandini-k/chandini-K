@@ -1,0 +1,10 @@
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\bin\Debug\netcoreapp3.1\EFDALAssign.deps.json
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\bin\Debug\netcoreapp3.1\EFDALAssign.dll
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\obj\Debug\netcoreapp3.1\EFDALAssign.csprojAssemblyReference.cache
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\obj\Debug\netcoreapp3.1\EFDALAssign.AssemblyInfoInputs.cache
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\obj\Debug\netcoreapp3.1\EFDALAssign.AssemblyInfo.cs
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\bin\Debug\netcoreapp3.1\EFDALAssign.runtimeconfig.json
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\bin\Debug\netcoreapp3.1\EFDALAssign.runtimeconfig.dev.json
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\bin\Debug\netcoreapp3.1\EFDALAssign.pdb
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\obj\Debug\netcoreapp3.1\EFDALAssign.dll
+C:\chandini\844993\netcore\EFDALAssign\EFDALAssign\obj\Debug\netcoreapp3.1\EFDALAssign.pdb
