@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\ArraysHandson\bin\Debug\ArraysHandson.exe.config
+C:\Users\Dell\source\repos\ArraysHandson\bin\Debug\ArraysHandson.exe
+C:\Users\Dell\source\repos\ArraysHandson\bin\Debug\ArraysHandson.pdb
+C:\Users\Dell\source\repos\ArraysHandson\obj\Debug\ArraysHandson.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\ArraysHandson\obj\Debug\ArraysHandson.exe
+C:\Users\Dell\source\repos\ArraysHandson\obj\Debug\ArraysHandson.pdb

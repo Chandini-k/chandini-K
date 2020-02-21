@@ -1,0 +1,38 @@
+﻿@model MVCAssign.Models.Employee
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+@using (Html.BeginForm("Add","Employee","POST"))
+{
+    <table class="table table-bordered">
+        <tr>
+            <td>EMPID</td>
+            <td>@Html.TextBoxFor(m => m.Empid)</td>
+        </tr>
+        <tr>
+            <td>NAME</td>
+            <td>@Html.TextBoxFor(m => m.Name)</td>
+        </tr>
+        <tr>
+            <td>DESIGNATION</td>
+            <td>@Html.DropDownListFor(m => m.Designation,ViewBag.Designation as SelectList)</td>
+        </tr>
+        <tr>
+            <td>PROJECT NAME</td>
+            @*<td>@Html.DropDownListFor(m => m.Country, new SelectList(new string[] { "INDIA", "CANADA", "USA" }))</td>*@
+            <td>@Html.DropDownListFor(m => m.ProjectName, ViewBag. as SelectList)</td>
+        </tr>
+        <tr>
+            <td>PASSWORD</td>
+            <td>@Html.TextBox("Pwd")</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Register" />
+            </td>
+        </tr>
+
+    </table>
+}

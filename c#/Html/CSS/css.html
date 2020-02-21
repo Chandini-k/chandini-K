@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        #pname
+        {
+            background-color: blueviolet;
+        }
+        h1{
+            color:brown;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-display:swap;
+            font-feature-settings:on;
+            font-stretch:ultra-condensed;
+        }
+        /*class selector*/
+        .p2{
+            background-color:lightblue;
+            color:#000000;
+            font-size:48px;
+            font-weight:bold;
+        }
+        /*attribute selector*/
+        input[type="text"]
+        {
+            background-color:aqua;
+            color:red;
+        }
+        *{
+            font-style:italic;
+        }
+        h3,h1{
+            color:red;
+        }
+        /*div p{
+            color:blue;
+            font-size:20px;
+            font-weight:bold;
+        }*/
+        div > p {
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+        } 
+       
+    </style>
+</head> 
+<body>
+    <h3 style="color:yellow;font-size:24;background-color:bisque">Welcome to CSS</h3>
+    <p id="pname">Welcome to book your hotel</p>
+    <p class="p2">Hotel Booking facility at your doorstep</p>
+    <p>Wlecome to BookYourHotel Website.</p>
+    <h2 id="pname">Welcome to Chennai</h2>
+    <div><p>Welcome To CTS</p></div>
+    <div><span><p>Welcome To TCS</p></span></div>
+    <h3>USERNAME</h3><input type="text" />
+    <h3>PASSWORD</h3><input type="password" />
+    <h1>WELCOME TO CSS</h1>
+</body>
+</html>

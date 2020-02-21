@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\InterfaceAssign\bin\Debug\InterfaceAssign.exe.config
+C:\Users\Dell\source\repos\InterfaceAssign\bin\Debug\InterfaceAssign.exe
+C:\Users\Dell\source\repos\InterfaceAssign\bin\Debug\InterfaceAssign.pdb
+C:\Users\Dell\source\repos\InterfaceAssign\obj\Debug\InterfaceAssign.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\InterfaceAssign\obj\Debug\InterfaceAssign.exe
+C:\Users\Dell\source\repos\InterfaceAssign\obj\Debug\InterfaceAssign.pdb

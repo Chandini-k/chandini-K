@@ -1,0 +1,6 @@
+C:\chandini\c#\Handson\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+C:\chandini\c#\Handson\MyFirstApp\bin\Debug\MyFirstApp.exe
+C:\chandini\c#\Handson\MyFirstApp\bin\Debug\MyFirstApp.pdb
+C:\chandini\c#\Handson\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
+C:\chandini\c#\Handson\MyFirstApp\obj\Debug\MyFirstApp.exe
+C:\chandini\c#\Handson\MyFirstApp\obj\Debug\MyFirstApp.pdb

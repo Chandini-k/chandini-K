@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\LargestAndSmallestArray\bin\Debug\LargestAndSmallestArray.exe.config
+C:\Users\Dell\source\repos\LargestAndSmallestArray\bin\Debug\LargestAndSmallestArray.exe
+C:\Users\Dell\source\repos\LargestAndSmallestArray\bin\Debug\LargestAndSmallestArray.pdb
+C:\Users\Dell\source\repos\LargestAndSmallestArray\obj\Debug\LargestAndSmallestArray.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\LargestAndSmallestArray\obj\Debug\LargestAndSmallestArray.exe
+C:\Users\Dell\source\repos\LargestAndSmallestArray\obj\Debug\LargestAndSmallestArray.pdb

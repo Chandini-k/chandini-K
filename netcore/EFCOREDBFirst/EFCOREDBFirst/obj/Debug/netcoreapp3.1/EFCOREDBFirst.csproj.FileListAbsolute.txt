@@ -1,0 +1,10 @@
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.deps.json
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.dll
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.csprojAssemblyReference.cache
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.AssemblyInfoInputs.cache
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.AssemblyInfo.cs
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.runtimeconfig.json
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.runtimeconfig.dev.json
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\bin\Debug\netcoreapp3.1\EFCOREDBFirst.pdb
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.dll
+C:\chandini\844993\netcore\EFCOREDBFirst\EFCOREDBFirst\obj\Debug\netcoreapp3.1\EFCOREDBFirst.pdb

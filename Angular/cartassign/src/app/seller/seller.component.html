@@ -1,0 +1,17 @@
+
+<table align="center">
+    <tr>
+        <a [routerLink]="'additem'">Additem</a>
+      </tr>
+     <tr>
+        <a [routerLink]="'viewitem'">Viewitem</a>
+      </tr>
+    <tr>
+      <td colspan="3">
+        <router-outlet></router-outlet>
+      </td>
+    </tr>
+  </table>
+  <button (click)="Logout()">Logout</button>
+  
+  

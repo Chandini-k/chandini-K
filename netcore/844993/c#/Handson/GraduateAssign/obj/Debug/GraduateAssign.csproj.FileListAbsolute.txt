@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\GraduateAssign\obj\Debug\GraduateAssign.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\GraduateAssign\bin\Debug\GraduateAssign.exe.config
+C:\Users\Dell\source\repos\GraduateAssign\bin\Debug\GraduateAssign.exe
+C:\Users\Dell\source\repos\GraduateAssign\bin\Debug\GraduateAssign.pdb
+C:\Users\Dell\source\repos\GraduateAssign\obj\Debug\GraduateAssign.exe
+C:\Users\Dell\source\repos\GraduateAssign\obj\Debug\GraduateAssign.pdb

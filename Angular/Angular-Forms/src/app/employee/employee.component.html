@@ -1,0 +1,96 @@
+<div class="card m-3">
+    <h5 class="card-header">Employee Form</h5>
+    <div class="card-body">
+        <form [formGroup]="employeeForm">
+            <div class="form-row">
+                <div class="form-group col-5">
+                    <label>ID</label>
+                    <input type="text" formControlName="ID" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.ID.errors }" />
+                    <div *ngIf="submitted && f.ID.errors" class="invalid-feedback">
+                        <div *ngIf="f.ID.errors.required">Last Name is required</div>
+                    </div>
+                </div>
+                <div class="form-group col-5">
+                    <label>Name</label>
+                    <input type="text" formControlName="Name" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Name.errors }" />
+                    <div *ngIf="submitted && f.Name.errors" class="invalid-feedback">
+                        <div *ngIf="f.Name.errors.required">Name is required</div>
+                        <div *ngIf="f.Name.errors.pattern">Enter only Alphabets</div>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label>Join Date</label>
+                    <input type="Date" formControlName="JoinDate" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.JoinDate.errors }" />
+                    <div *ngIf="submitted && f.JoinDate.errors" class="invalid-feedback">
+                        <div *ngIf="f.JoinDate.errors.required">Join Date is required</div>
+                        <div *ngIf="f.JoinDate.errors.JoinDate">Joindate must be valid</div>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label>Designation</label>
+                    <select formControlName="Designation" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Designation.errors }">
+                        <option value=""></option>
+                        <option value="PAT">PAT</option>
+                        <option value="ET">ET</option>
+                        <option value="HR">HR</option>
+                        <option value="FSE">FSE</option>
+                    </select>
+                    <div *ngIf="submitted && f.Designation.errors" class="invalid-feedback">
+                        <div *ngIf="f.Designation.errors.required">Designation is required</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+            <div class="form-group col">
+                <label>Mobile</label>
+                <input type="text" formControlName="Mobile" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Mobile.errors }" />
+                <div *ngIf="submitted && f.Mobile.errors" class="invalid-feedback">
+                    <div *ngIf="f.Mobile.errors.required">Mobile no is required</div>
+                    <div *ngIf="f.Mobile.errors.pattern">Mobile no Must be Valid</div>
+                </div>
+            </div>
+            <div class="form-group col">
+                <label>Email</label>
+                <input type="text" formControlName="EmailId" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.EmailId.errors }" />
+                <div *ngIf="submitted && f.EmailId.errors" class="invalid-feedback">
+                    <div *ngIf="f.EmailId.errors.required">Email is required</div>
+                    <div *ngIf="f.EmailId.errors.email">Email must be a valid email address</div>
+                </div>
+            </div>
+        </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" formControlName="Password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Password.errors }" />
+                    <div *ngIf="submitted && f.Password.errors" class="invalid-feedback">
+                        <div *ngIf="f.Password.errors.required">Password is required</div>
+                        <div *ngIf="f.Password.errors.pattern">Password must be at least 8 characters</div>
+                    </div>
+                </div>
+            <div class="text-center">
+                <button class="btn btn-primary mr-1" type="reset" (click)='onSubmit()'>Submit</button>
+                <button class="btn btn-primary mr-1" type="reset" (click)='onReset()'>Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>JoinDate</th>
+        <th>Designation</th>
+        <th>Mobileno</th>
+        <th>EmailId</th>
+        <th>Password</th>
+    </tr>
+    <tr *ngFor="let item of list">
+          <td>{{item.ID}}</td>
+          <td>{{item.Name}}</td>
+          <td>{{item.JoinDate}}</td>
+          <td>{{item.Designation}}</td>
+          <td>{{item.Mobile}}</td>
+          <td>{{item.EmailId}}</td>
+          <td>{{item.Password}}</td>
+    </tr>
+</table>
+
