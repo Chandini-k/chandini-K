@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itemservice", "itemservice\itemservice.csproj", "{CFCE774E-6DA1-44D0-8C26-A4DA9CE253B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orderservice", "orderservice\orderservice.csproj", "{958981DC-F4D7-4A21-BFB7-AB2348AED590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "orderservice", "orderservice\orderservice.csproj", "{958981DC-F4D7-4A21-BFB7-AB2348AED590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{EB5A9297-E076-414A-AFC0-813E6EA6928A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{958981DC-F4D7-4A21-BFB7-AB2348AED590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{958981DC-F4D7-4A21-BFB7-AB2348AED590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{958981DC-F4D7-4A21-BFB7-AB2348AED590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5A9297-E076-414A-AFC0-813E6EA6928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5A9297-E076-414A-AFC0-813E6EA6928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5A9297-E076-414A-AFC0-813E6EA6928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5A9297-E076-414A-AFC0-813E6EA6928A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

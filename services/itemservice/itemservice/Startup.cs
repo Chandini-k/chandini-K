@@ -28,6 +28,15 @@ namespace itemservice
         {
             services.AddDbContext<ShopDBContext>();
             services.AddTransient<IItemRepository, ItemRepository>();
+            services.AddCors(c =>
+                {
+                    c.AddPolicy("AllowOrigin", options =>
+                   options.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                         .AllowAnyHeader()
+                   );
+
+                });
             services.AddControllers();
         }
 
@@ -42,6 +51,8 @@ namespace itemservice
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseCors("AllowOrigin");//Enable Cors
+
 
             app.UseEndpoints(endpoints =>
             {
