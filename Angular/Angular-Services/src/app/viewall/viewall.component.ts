@@ -44,15 +44,18 @@ export class ViewallComponent implements OnInit {
   }
   Search()
   {
-    let id=this.itemForm.value["id"];
+    let id=this.itemForm.value["itemid"];
     this.service.GetById(id).subscribe(res=>{
       this.item=res;
       console.log(this.item);
-      this.itemForm.setValue({"name":this.item.name})
-      this.itemForm.setValue({"price":this.item.price})
-      this.itemForm.setValue({"stock":this.item.stock})
+      this.itemForm.setValue({
+        itemid:this.item.itemid,
+        name:this.item.name,
+        price:this.item.price,
+        stock:this.item.stock,
     })
-  }
+  })
+}
   Add()
   {
     this.item=new Item();
@@ -67,5 +70,27 @@ export class ViewallComponent implements OnInit {
       },err=>{
         console.log(err)
       })
+  }
+   Update()
+  {
+    this.item=new Item();
+    this.item.itemid=this.itemForm.value["itemid"];
+    this.item.name=this.itemForm.value["name"];
+    this.item.price=Number(this.itemForm.value["price"]);
+    this.item.stock=Number(this.itemForm.value["stock"]);
+    console.log(this.item);
+    this.service.UpdateItem(this.item).subscribe(res=>
+      {
+        console.log('record updated')
+      })
+  }
+  Delete(){
+    let id=this.itemForm.value["itemid"];
+    this.service.DeleteItem(id).subscribe(res=>{
+      console.log('Record deleted');
+    },
+    err=>{
+      console.log(err);
+    })
   }
 }

@@ -18,7 +18,7 @@ url:string='http://localhost:51276/Item/'
   public AddItem(item:Item):Observable<any>
   {
      
-     return this.http.post<any>(this.url+'AddItem',item,Requestheaders)
+     return this.http.post<any>(this.url+'AddItem',JSON.stringify(item),Requestheaders)
   }
   public GetById(id:string):Observable<Item>
   {
@@ -27,7 +27,7 @@ url:string='http://localhost:51276/Item/'
   public UpdateItem(item:Item):Observable<any>
   {
      
-     return this.http.put<any>(this.url+'UpdateItem',item,Requestheaders)
+     return this.http.put<any>(this.url+'UpdateItem',JSON.stringify(item),Requestheaders)
   }
   public DeleteItem(id:string):Observable<any>
   {
